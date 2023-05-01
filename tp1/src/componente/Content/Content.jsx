@@ -5,10 +5,9 @@ import Contador from "../Contador/Contador";
 function Content() {
     return (
       <div className="Content">
-        <h1>Content</h1>
+        <h1>TP contador</h1>
   
-       <Contador>
-        </Contador> 
+       <Contador></Contador> 
       </div>
     );
   }
