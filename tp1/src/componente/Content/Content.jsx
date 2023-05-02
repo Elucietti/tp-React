@@ -1,13 +1,14 @@
 import React from "react";
 import Boton from "../Boton/Boton";
 import Contador from "../Contador/Contador";
+import Formulario from "../Formulario/Formulario";
 
 function Content() {
     return (
       <div className="Content">
-        <h1>TP contador</h1>
-  
-       <Contador></Contador> 
+        <h1></h1>
+        <Formulario/>
+       {/* <Contador></Contador>  */}
       </div>
     );
   }
