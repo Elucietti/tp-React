@@ -22,7 +22,7 @@ const HandleSubmit=(e)=>{
     setNacionalidad('');
     setDni(); 
     setEdad();
-    
+}
     return( 
        <div>
         <form onSubmit={HandleSubmit}>
@@ -50,7 +50,7 @@ const HandleSubmit=(e)=>{
         </form>
         <div>
             {personas.map((personas) => <Card nombre={personas.nombre}
-                                              apeliido={personas.apellido}
+                                              apellido={personas.apellido}
                                               nacionalidad={personas.nacionalidad}  
                                               dni={personas.dni}   
                                               edad={personas.edad} 
@@ -59,7 +59,7 @@ const HandleSubmit=(e)=>{
        </div> 
     )
 
-    }
+   
 }
 export default Formulario;
 
